@@ -1,13 +1,13 @@
 {
-  "homepage": "http://jeevan9s.github.io/MCI-CetaRobotics",
+  "homepage": "http://jeevan9s.github.io/MCI-CetaRobotics/",
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
